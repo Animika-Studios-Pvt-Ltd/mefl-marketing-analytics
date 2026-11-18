@@ -1,0 +1,62 @@
+﻿Campaign No.,Campaign_group,Platform,Form,Campaign Name,Start Date,End Date,Amount,Reach,Views,Link Clicks,Landing Page Views,Impressions,Leads,Male,Female
+IN_C01,C01,Instagram,static,Instagram - Sandalwood Springs Phase - 2,7/4/2026,7/10/2026,,209512,394183,3022,18,393559,128,159538,50104
+FB_C01,C01,Facebook,static,Motherearth Sandalwood Springs Phase - 2,7/4/2026,7/10/2026,,68072,134883,31305,10674,133134,748,43590,22468
+IN_C02,C02,Instagram,static,Instagram - SSP2 - MEFL,7/14/2026,7/20/2026,,35658,63981,562,1,63944,16,29666,9847
+FB_C02,C02,Facebook,static,MEF - Sandalwood Springs P2,7/14/2026,7/20/2026,,15978,25049,1615,573,24642,14,12028,4306
+IN_C03,C03,Instagram,static,Insta-3 MEFL SSP2,7/30/2026,8/5/2026,9972.75,488385,985441,5113,1,983247,12,378731,111213
+FB_C03,C03,Facebook,static,Facebook MEFL SSP2,7/30/2026,8/5/2026,6496.51,11720,20942,989,452,20689,15,28585,8595
+IN_C04,C04,Instagram,static,Instagram - SSP2 - MEFL,8/6/2026,8/12/2026,8633.72,19507,28153,250,6,28080,18,14768,3888
+FB_C04,C04,Facebook,static,MEF - Sandalwood Springs P2,8/6/2026,8/12/2026,8045.62,23562,43312,868,387,42982,12,18969,5298
+IN_C05,C05,Instagram,static,Insta-3 MEFL SSP2,8/14/2026,8/20/2026,12958.48,47171,86476,667,6,86248,21,36579,10788
+FB_C05,C05,Facebook,static,Facebook-3 MEFL SSP2,8/14/2026,8/20/2026,12938.74,30468,46920,998,470,46336,18,23718,5618
+IN_C06,C06,Instagram,static,Instagram - Sandalwood Springs Phase - 2,8/21/2026,8/27/2026,12934.26,11989,20139,264,15,20083,31,8991,2949
+FB_C06,C06,Facebook,static,Motherearth Sandalwood Springs Phase - 2,8/21/2026,8/27/2026,12918.81,18646,33272,1003,421,32885,13,15708,3098
+IN_C07,C07,Instagram,static,Insta - Sandalwood Heritage C-8,8/28/2026,9/3/2026,13091.43,24773,38573,364,7,38416,26,19401,5064
+FB_C07,C07,Facebook,static,FB - Sandalwood Heritage C-8,8/28/2026,9/3/2026,13083.83,44778,68904,591,16,68693,28,34527,9786
+IN_C08,C08,Instagram,static,Insta - Sandalwood Heritage C-8,9/4/2026,9/12/2026,14973.07,25328,38608,412,10,38509,31,21052,5177
+FB_C08,C08,Facebook,static,FB - Sandalwood Heritage C-8,9/4/2026,9/12/2026,14967.12,45003,67816,648,15,67640,28,36940,9179
+IN_C09,C09,Instagram,static,Insta Sandalwood Growth C - 9,9/12/2026,9/18/2026,13246.49,5214,9494,142,8,9443,15,3894,1229
+FB_C09,C09,Facebook,static,Sandalwood Growth C-9,9/12/2026,9/18/2026,13115.37,4849,10449,207,11,10411,23,3932,906
+IN_C10,C10,Instagram,static,Insta Sandalwood Growth C - 9,9/19/2026,9/25/2026,13617.86,16426,27173,291,3,26986,13,11993,4060
+FB_C10,C10,Facebook,static,Sandalwood Growth C-9,9/19/2026,9/25/2026,13777.13,7068,12911,218,13,12876,23,5507,1483
+IN_C11,C11,Instagram,static,Insta - Sandalwood Heritage C-8,9/26/2026,10/2/2026,13070.76,48498,64237,657,10,63996,28,39125,8306
+FB_C11,C11,Facebook,static,FB - Sandalwood Heritage C-8,9/26/2026,10/2/2026,13090.43,82622,126690,1204,16,126303,24,64740,17826
+IN_C12,C12,Instagram,static,Insta - Sandalwood Heritage C-8,10/3/2026,10/12/2026,10024.33,29569,39739,335,4,39540,22,23105,5900
+FB_C12,C12,Facebook,static,FB - Sandalwood Heritage C-8,10/3/2026,10/12/2026,10097.81,37308,50929,453,3,50768,10,28585,8595
+IN_C13,C13,Instagram,static,Insta - Sandalwood Heritage C-8,10/10/2026,10/12/2026,2954.72,5623,7316,67,4,7296,51,4665,1138
+FB_C13,C13,Facebook,static,FB - Sandalwood Heritage C-8,10/10/2026,10/12/2026,2673.68,9874,12178,123,3,12128,46,7537,2283
+IN_C13,C13,Instagram,static,Royal Managed Farmland - Insta,10/12/2026,10/21/2026,8786.69,9531,18243,395,,18151,8,7179,2411
+FB_C13,C13,Facebook,static,Royal Managed Farmland-FB,10/12/2026,10/21/2026,9346,5228,10193,232,,10157,2,37,9
+IN_C14,C14,Instagram,Static,,10/22/2026,10/28/2026,5342.94,7236,,1246,,27338,11,,
+FB_14,C14,Facebook,Static,Sandalwood-Acre-FB,10/22/2026,10/28/2026,6403.14,4793,8688,177,,8642,27,,
+GO_C01,C01,Google Ads,static,Sandalwood Springs Phase - 2,7/6/2026,7/14/2026,3500,,,1566,,49867,,,
+GO_C02,C02,Google Ads,static,MEFL - Sandalwood Springs P2,7/14/2026,7/20/2026,3500,,,6443,,53387,,3697,2245
+GO_C03,C03,Google Ads,static,Sandalwood Spring P2 - Ad3,7/31/2026,8/6/2026,7000,,,1655,,23436,4,1219,296
+GO_C04,C04,Google Ads,static,Extended the campaign 3 for one more week,8/7/2026,8/13/2026,3000,,,615,,15802,2,357,110
+GO_C05,C05,Google Ads,static,Sandalwood Springs Phase - 2,8/17/2026,8/25/2026,7000,,,8857,,151573,11,4525,3193
+GO_C06,C06,Google Ads,static,Sandalwood Springs P2 Mother Earth Farmlands,8/28/2026,9/3/2026,7000,,,728,,24977,1,463,132
+GO_C07,C07,Google Ads,static,Sandalwood Springs PMax-6,9/4/2026,9/10/2026,7000,,,24525,,264665,1,11723,10139
+GO_C08,C08,Google Ads,static,Sandalwood Growth C 7,9/17/2026,10/5/2026,7000,,,496,,10413,6,236,94
+GO_ADJ,C08,Google Ads,static,Google Ads Spend,9/12/2026,9/12/2026,7000,,,,,,,,
+GO_C09,C09,Google Ads,static,Sandalwood Springs Phase - 2 Demand Gen,10/23/2026,11/2/2026,0,,,15218,,155566,27,4748,2850
+GO_C09,C09,Google Ads,static,"Pmax Sandalwood, Search Sandalwood",10/23/2026,11/17/2026,30000,,,1511,,33515,,849,487
+VE_C01,C01,Instagram,video,Sandalwood Springs Video,10/5/2026,10/11/2026,7979.89,3128,6134,120,,6003,20,2359,781
+VE_C02,C01,Facebook,video,Sandalwood Video FB,10/5/2026,10/11/2026,7978.79,3890,4651,98,,4594,16,2870,1039
+VE_C03,C02,Instagram,video,Sandalwood Springs Video,10/12/2026,10/18/2026,6981.4,3531,4806,102,,4369,13,2345,1034
+VE_C04,C02,Facebook,video,Sandalwood Video FB,10/12/2026,10/18/2026,6964.69,3374,4732,69,,6003,11,2547,921
+VE_C05,C03,Instagram,video,Sandalwood Springs Video,10/19/2026,10/23/2026,4678.48,2577,3716,84,,3666,11,,
+VE_C06,C03,Facebook,video,Sandalwood Video FB,10/19/2026,10/23/2026,4787.73,2351,3084,68,,3095,13,,
+VE_C07,C04,Instagram,video,Sandalwood Growth V-2-Insta,10/23/2026,10/28/2026,5169.28,7040,9780,191,,10564,3,,
+VE_C08,C04,Facebook,video,Sandalwood Growth V-2-FB,10/23/2026,10/28/2026,5380.74,2644,3634,48,,3654,4,,
+VE-C09,C05,Instagram,video,SSP-growth-insta-V-2.1,10/29/2026,11/4/2026,6188.68,2417,3190,44,,3202,4,,
+VE-C10,C05,Facebook,video,SSP-growth-FB-V-2.1,10/29/2026,11/4/2026,6205.76,3219,4234,40,,4213,9,,
+VE-C11,C06,Instagram,video,Sandalwood Springs Video,11/4/2026,11/10/2026,12756.2,7433,9770,138,,9747,20,,
+VE-C12,C06,Facebook,video,Sandalwood Video FB,11/4/2026,11/10/2026,12791.56,9092,12376,178,,12198,24,,
+VE_C13,C07,Instagram,video,Sandalwood Video IN-3,11/12/2026,11/18/2026,4952.83,2705,3549,56,,3556,8,,
+VE_C13,C07,Facebook,video,Sandalwood Video FB-3,11/12/2026,11/18/2026,5029.16,2983,4102,78,,4054,12,,
+IN-C15,C15,Instagram,static,Sandalwood-Diwali-Insta,10/29/2026,11/4/2026,5881.25,7338,10104,96,,10032,5,,
+FB_C15,C15,Facebook,static,Sandalwood-Diwali-FB,10/29/2026,11/4/2026,5906.92,9947,13416,98,,13333,5,,
+IN-C16,C16,Instagram,static,Sandalwood-Diwali-Insta,11/6/2026,11/11/2026,10693.52,14966,21377,210,,21598,10,,
+FB-C16,C16,Facebook,static,Sandalwood-Diwali-FB,11/6/2026,11/11/2026,10654.4,20530,30342,310,,30904,9,,
+IN_C17,C17,Instagram,static,Sandalwood Springs Gold-Insta,11/11/2026,11/17/2026,5913.59,14129,22300,218,,22213,11,,
+FB_C17,C17,Facebook,static,Sandalwood Springs Gold-FB,11/11/2026,11/17/2026,5931.65,11511,18515,137,,18442,9,,

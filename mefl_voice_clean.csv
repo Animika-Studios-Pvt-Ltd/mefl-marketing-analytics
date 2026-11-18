@@ -1,0 +1,141 @@
+﻿sl_no,lead,created_date,subject,customer_name,user,status,channel,sub_channel,last_note,class,next_step
+2,28317,2026-09-10 15:07:00,Enquiry from Telephone,Arjun Mark,Chaithra V,Booked,Voice,IVR_Sandalwood,"Dialed, but not answered",HOT,Retry call (different time) + WhatsApp message
+3,28320,2026-09-10 19:03:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,"Dialed, but not answered",LOST,Retry call (different time) + WhatsApp message
+7,28250,2026-09-03 13:34:00,Enquiry from Telephone,santhosh,Harish patil,Verified,Voice,IVR_Sandalwood,"Dialed, but not answered",HOT,Retry call (different time) + WhatsApp message
+22,29948,2026-10-02 17:02:00,Enquiry from Telephone,Mohammed Km Khan,Tejendra M,Verified,Voice,IVR_Sandalwood,This month he was busy and committed to some meeting and he is interested in our project and i suggested him Channapattana project  he will visit in next month and he asked office location when come to his framhouse in Kumbalgodu he come to office,HOT,Call early Nov
+23,29966,2026-10-04 11:58:00,Enquiry from Telephone,LOKESH,srinivas,Verified,Voice,IVR_Sandalwood,His friend in out of country so they will come by November after 2nd,HOT,Call after 2 Nov
+27,30044,2026-10-12 13:02:00,Enquiry from Telephone,Sushruthaa,Harish patil,Verified,Voice,IVR_Sandalwood,"Dialed, but not answered",HOT,Retry call (different time) + WhatsApp message
+28,30049,2026-10-12 17:19:00,Enquiry from Telephone,chirag,Lohith N,Verified,Voice,IVR_Sandalwood,"Dialed, but not answered",HOT,Retry call (different time) + WhatsApp message
+39,30141,2026-10-16 09:51:00,Enquiry from Telephone,sunil deekshith,Harish patil,Verified,Voice,IVR_Sandalwood,"Dialed, but not answered",HOT,Retry call (different time) + WhatsApp message
+45,30180,2026-10-19 14:47:00,Enquiry from Telephone,Vijay,srinivas,Verified,Voice,IVR_Sandalwood,He is from brigade panorama apartment   taken all the details   taken some time to take decision,HOT,Call now
+62,30178,2026-10-19 13:35:00,Enquiry from Telephone,Pushpak,srinivas,Site Visit Planned,Voice,IVR_Sandalwood,He will try to visit by 31st october,HOT,Confirm 31 Oct visit
+63,30191,2026-10-20 11:09:00,Enquiry from Telephone,syed,Harish patil,Site Visit Planned,Voice,IVR_Sandalwood,,HOT,Call - confirm visit
+67,28351,2026-09-15 20:17:00,Enquiry from Telephone,nagesh,Harish patil,Site Visit Done,Voice,IVR_Sandalwood,not interested,HOT,Closed - said not interested
+68,29486,2026-09-27 10:20:00,Enquiry from Telephone,kautilya rajput,Lohith N,Site Visit Done,Voice,IVR_Sandalwood,"Dialed, but not answered",HOT,Closing call - price / booking
+69,29977,2026-10-05 13:11:00,Enquiry from Telephone,hitha,Harish patil,Site Visit Done,Voice,IVR_Sandalwood,,HOT,Closing call - price / booking
+70,29915,2026-09-29 09:20:00,Enquiry from Telephone,Vishnu  Srivatsa,Harish patil,Site Visit Done,Voice,IVR_Sandalwood,spoke over whatsapp call,HOT,Closing call - price / booking
+72,30140,2026-10-16 09:31:00,Enquiry from Telephone,Amit,srinivas,Site Visit Done,Voice,IVR_Sandalwood,n,HOT,Closing call - price / booking
+77,28280,2026-09-07 14:35:00,Enquiry from Telephone,Vinay,srinivas,In Process,Voice,IVR_Sandalwood,His grand mother was passed away so need 1 month time,WARM,Call now (month passed)
+90,28335,2026-09-13 11:34:00,Enquiry from Telephone,Arun Kumar,Chaithra V,In Process,Voice,IVR_Sandalwood,"Dialed, but not answered",WARM,Retry call (different time) + WhatsApp message
+91,28337,2026-09-14 11:19:00,Enquiry from Telephone,,Tanveer,In Process,Voice,IVR_Sandalwood,Client told me to call after 6pm due to he was busy,WARM,Call - stale
+92,28350,2026-09-15 14:41:00,Enquiry from Telephone,akshaya sharma,Tanveer,In Process,Voice,IVR_Sandalwood,,WARM,"Call - no note logged, qualify lead"
+102,29949,2026-10-02 18:10:00,Enquiry from Telephone,Pallavi kashi venkatesh,srinivas,In Process,Voice,IVR_Sandalwood,Due to far away location she will visit the project in november,WARM,Call early Nov
+116,30021,2026-10-09 10:35:00,Enquiry from Telephone,Chandrakant,Harish patil,In Process,Voice,IVR_Sandalwood,,WARM,"Call - no note logged, qualify lead"
+117,30022,2026-10-09 15:43:00,Enquiry from Telephone,,Tejendra M,In Process,Voice,IVR_Sandalwood,Looking for srirangapatna made enquiry,WARM,Different location (Srirangapatna) - low priority
+118,30023,2026-10-09 15:50:00,Enquiry from Telephone,Neha,Lohith N,In Process,Voice,IVR_Sandalwood,"Dialed, but not answered",WARM,Retry call (different time) + WhatsApp message
+122,30285,2026-10-28 12:27:00,Enquiry from Telephone,,virat kohli,RNR,Voice,IVR_Sandalwood,"Dialed, but not answered",COLD,
+123,30287,2026-10-28 16:22:00,Enquiry from Telephone,Indrajith,Tejendra M,In Process,Voice,IVR_Sandalwood,He asked me share details in wats app out of station once he come back he will contact me,WARM,
+124,30301,2026-10-29 11:27:00,Enquiry from Telephone,Ramesh,srinivas,Verified,Voice,IVR_Sandalwood,Got a IVR call   shared the details so he will try to visit the project asap,HOT,
+125,30303,2026-10-29 11:53:00,Enquiry from Telephone,Vijay Bhupathi,Lohith N,In Process,Voice,IVR_Sandalwood,spoken details shared said let you know about site visit,WARM,
+126,30304,2026-10-29 12:19:00,Enquiry from Telephone,mohan p,virat kohli,In Process,Voice,IVR_Sandalwood,,WARM,
+127,30318,2026-10-30 14:14:00,Enquiry from Telephone,Pankaj Seth,Tejendra M,Verified,Voice,IVR_Sandalwood,Spoken in wats app call he asked me location but due to travel distance he plan for next week,HOT,
+128,30324,2026-10-30 16:02:00,Enquiry from Telephone,Akash solanki,srinivas,Verified,Voice,IVR_Sandalwood,He is from Dehradun so  made IVR call   he taken all the details   he will get back to us asap,HOT,
+129,30338,2026-10-31 16:02:00,Enquiry from Telephone,Venkatesh,Tejendra M,Verified,Voice,IVR_Sandalwood,Enquired from google he asked me share details in wats app and he mention he will discuss with his parents and he will visit site tomorrow morning he will update me in night,HOT,
+130,30376,2026-11-03 12:11:00,Enquiry from Telephone,,Lohith N,Cancelled,Voice,IVR_Sandalwood,"119 customer ,regarding enquirey",LOST,
+131,30389,2026-11-04 07:47:00,Enquiry from Telephone,,srinivas,Verified,Voice,IVR_Sandalwood,"Dialed, but not answered",HOT,
+132,30392,2026-11-04 08:15:00,Enquiry from Telephone,Ankur Shrivastava,virat kohli,In Process,Voice,IVR_Sandalwood,,WARM,
+139,30596,2026-11-12 11:10:00,Enquiry from Telephone,SHIVARAM S G,virat kohli,Cancelled,Voice,IVR_Sandalwood,,LOST,Inactive
+140,30601,2026-11-12 13:50:00,Enquiry from Telephone,,Tejendra M,In Process,Voice,IVR_Sandalwood,He made enquiry and he was quite busy he mentioned he will contact me once he was free,WARM,Active
+159,30143,2026-10-16 10:13:00,Enquiry from Telephone,Shankar,Lohith N,In Process,Voice,IVR_Sandalwood,"Dialed, but not answered",WARM,Retry call (different time) + WhatsApp message
+160,30144,2026-10-16 10:17:00,Enquiry from Telephone,Ganesh Iyer,srinivas,In Process,Voice,IVR_Sandalwood,"Dialed, but not answered",WARM,Retry call (different time) + WhatsApp message
+162,30230,2026-10-23 13:41:00,Enquiry from Telephone,Yash,Tejendra M,In Process,Voice,IVR_Sandalwood,He looking for 6000 sqft i suggested him for quatre acres this week he exploring other project next week he will going to visit,WARM,Confirm visit date
+164,30157,2026-10-17 12:52:00,Enquiry from Telephone,Ganesh,srinivas,In Process,Voice,IVR_Sandalwood,"Dialed, but not answered",WARM,Retry call (different time) + WhatsApp message
+169,30166,2026-10-18 12:23:00,Enquiry from Telephone,Chandrakanth N,Tejendra M,In Process,Voice,IVR_Sandalwood,He told he will come visit site on nov 7 because he going to male mahadeshwara beta in that time he will viist,WARM,Reminder before 7 Nov
+171,30170,2026-10-19 08:17:00,Enquiry from Telephone,gupta,Lohith N,In Process,Voice,IVR_Sandalwood,saturday remind him,WARM,Call now
+204,28291,2026-09-09 11:29:00,Enquiry from Telephone,vinay,Harish patil,RNR,Voice,IVR_Sandalwood,dailed via alternate number no response,COLD,Retry call (different time) + WhatsApp message
+224,28409,2026-09-21 18:53:00,Enquiry from Telephone,,Harish patil,RNR,Voice,IVR_Sandalwood,"Dialed, but not answered",COLD,Retry call (different time) + WhatsApp message
+226,29315,2026-09-23 19:28:00,Enquiry from Telephone,karthik,Harish patil,RNR,Voice,IVR_Sandalwood,"Dialed, but not answered",COLD,Retry call (different time) + WhatsApp message
+311,30142,2026-10-16 09:55:00,Enquiry from Telephone,Asha,Tejendra M,RNR,Voice,IVR_Sandalwood,"Dialed, but not answered",COLD,Retry call (different time) + WhatsApp message
+351,28222,2026-09-01 11:55:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,REFUND CUSTOMER,LOST,No follow-up (closed)
+361,28243,2026-09-02 12:08:00,Enquiry from Telephone,Keshav Prasad,Harish patil,Cancelled,Voice,IVR_Sandalwood,briefed Their friend is looking for investment so that sharing his number information shared1,LOST,No follow-up (closed)
+362,28244,2026-09-02 18:05:00,Enquiry from Telephone,anand c,Harish patil,Cancelled,Voice,IVR_Sandalwood,not interested,LOST,No follow-up (closed)
+366,28248,2026-09-03 13:30:00,Enquiry from Telephone,,Harish patil,Cancelled,Voice,IVR_Sandalwood,TEST CALL OFFICE,LOST,No follow-up (closed)
+367,28249,2026-09-03 13:33:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,,LOST,No follow-up (closed)
+368,28251,2026-09-03 17:10:00,Enquiry from Telephone,,Harish patil,Cancelled,Voice,IVR_Sandalwood,TEST CALL FROM PARAMANTRA TEAM,LOST,No follow-up (closed)
+369,28252,2026-09-03 17:22:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,IVR TESTING CALLS,LOST,No follow-up (closed)
+388,28285,2026-09-08 16:02:00,inquiry telephone,Hanumanth Reddy,srinivas,Cancelled,Voice,,No incoming call since 1 week,LOST,No follow-up (closed)
+404,28310,2026-09-09 14:56:00,Enquiry from Telephone,,Harish patil,Cancelled,Voice,IVR_Sandalwood,by mistake made an inquiry not looking into managed farmlands,LOST,No follow-up (closed)
+405,28311,2026-09-09 17:05:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,,LOST,No follow-up (closed)
+410,28318,2026-09-10 17:27:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,WRONG NUMBER,LOST,No follow-up (closed)
+416,28328,2026-09-11 19:02:00,Enquiry from Telephone,,srinivas,Cancelled,Voice,IVR_Sandalwood,No Response,LOST,No follow-up (closed)
+417,28329,2026-09-12 11:50:00,Enquiry from Telephone,Fahad Anzal,srinivas,Cancelled,Voice,IVR_Sandalwood,"Dialed, but not answered",LOST,No follow-up (closed)
+418,28330,2026-09-12 13:41:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,Job Enquiry,LOST,No follow-up (closed)
+419,28332,2026-09-12 18:56:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,Booking cancelled due to old client called for refund,LOST,No follow-up (closed)
+420,28333,2026-09-13 09:11:00,Enquiry from Telephone,,srinivas,Cancelled,Voice,IVR_Sandalwood,cancel,LOST,No follow-up (closed)
+427,28349,2026-09-15 13:58:00,Enquiry from Telephone,Deepali,Harish patil,Cancelled,Voice,IVR_Sandalwood,promotionss,LOST,No follow-up (closed)
+436,28378,2026-09-19 13:27:00,Enquiry from Telephone,sharath,Harish patil,Cancelled,Voice,IVR_Sandalwood,looking in mysore hell update basically looking for lifestyle project not intersted in sws hell update,LOST,No follow-up (closed)
+442,28376,2026-09-19 10:52:00,Enquiry from Telephone,Renuka,srinivas,Cancelled,Voice,IVR_Sandalwood,She is purposely disconnecting the calls,LOST,No follow-up (closed)
+445,28399,2026-09-20 12:16:00,Enquiry from Telephone,,Harish patil,Cancelled,Voice,IVR_Sandalwood,incorrect number recoerded,LOST,No follow-up (closed)
+460,29312,2026-09-23 09:15:00,Enquiry from Telephone,Aishor,srinivas,Cancelled,Voice,IVR_Sandalwood,Not Interested,LOST,No follow-up (closed)
+468,29321,2026-09-24 09:41:00,Enquiry from Telephone,Karthik,srinivas,Cancelled,Voice,IVR_Sandalwood,Already taken a land in mysore,LOST,No follow-up (closed)
+475,29477,2026-09-26 10:45:00,Enquiry from Telephone,surya,Lohith N,Cancelled,Voice,IVR_Sandalwood,he is not answering may be marketing person,LOST,No follow-up (closed)
+477,29480,2026-09-26 14:28:00,Enquiry from Telephone,,Harish patil,Cancelled,Voice,IVR_Sandalwood,its an enquiry for digital marketing from 3rd party,LOST,No follow-up (closed)
+487,29587,2026-09-28 11:57:00,Enquiry from Telephone,raga nambar,Harish patil,Cancelled,Voice,IVR_Sandalwood,already purchased,LOST,No follow-up (closed)
+631,29926,2026-09-30 12:06:00,Enquiry from Telephone,,Lohith N,Cancelled,Voice,IVR_Sandalwood,he just enquiried the location  after he not answering,LOST,No follow-up (closed)
+648,29951,2026-10-03 11:57:00,Enquiry from Telephone,,Lohith N,Cancelled,Voice,IVR_Sandalwood,he wants to sell his own property in Tiptur,LOST,No follow-up (closed)
+678,29994,2026-10-07 08:42:00,Enquiry from Telephone,,Tejendra M,Cancelled,Voice,IVR_Sandalwood,Asking vacancy for accounts not lead,LOST,No follow-up (closed)
+683,30003,2026-10-08 10:45:00,Enquiry from Telephone,Chidambara Rao,srinivas,Cancelled,Voice,IVR_Sandalwood,Too Far so not interested,LOST,No follow-up (closed)
+694,30034,2026-10-11 11:50:00,Enquiry from Telephone,kiran sudarshan silks,Harish patil,Cancelled,Voice,IVR_Sandalwood,spot presentation has been asked will be going on wednesday,LOST,Verify status
+695,30035,2026-10-11 12:17:00,Enquiry from Telephone,ashwini sudarshan silks,Harish patil,Cancelled,Voice,IVR_Sandalwood,"Dialed, but not answered",LOST,No follow-up (closed)
+696,30036,2026-10-11 12:45:00,Enquiry from Telephone,Raghavendra sudharshan store,Lohith N,Cancelled,Voice,IVR_Sandalwood,client handeled by kumar,LOST,No follow-up (closed)
+724,30133,2026-10-15 13:15:00,Enquiry from Telephone,Garima,Tejendra M,Cancelled,Voice,IVR_Sandalwood,call for vacancy want  to contact hr,LOST,No follow-up (closed)
+725,30148,2026-10-16 13:15:00,Enquiry from Telephone,loresta,Lohith N,Cancelled,Voice,IVR_Sandalwood,said cancelled,LOST,No follow-up (closed)
+728,30179,2026-10-19 14:25:00,Enquiry from Telephone,,Lohith N,Cancelled,Voice,IVR_Sandalwood,checking purpose only  call from company side only,LOST,No follow-up (closed)
+739,27783,2026-07-11 12:41:00,Enquiry from Telephone,Unknown,virat kohli,Cancelled,Voice,IVR_Sandalwood,all details through  whtsapp,LOST,Retry call (different time) + WhatsApp message
+741,27850,2026-07-17 17:59:00,Enquiry from Telephone,Unknown,virat kohli,Cancelled,Voice,IVR_Sandalwood,"Dialed, but not answered",LOST,Retry call (different time) + WhatsApp message
+792,30242,2026-10-24 15:31:00,Enquiry from Telephone,,srinivas,Verified,Voice,IVR_Sandalwood,He will call us next week,HOT,Call back as per note
+794,30255,2026-10-25 14:48:00,Enquiry from Telephone,,srinivas,Verified,Voice,IVR_Sandalwood,Client has taken all the details   told he will get back to us soon,HOT,Call back as per note
+815,30248,2026-10-25 10:47:00,Enquiry from Telephone,harish deshpande,virat kohli,Site Visit Planned,Voice,IVR_Sandalwood,"Dialed, but not answered",HOT,Call back as per note
+819,27927,2026-07-31 13:06:00,Enquiry from Telephone,kadambari,virat kohli,Site Visit Done,Voice,IVR_Sandalwood,,HOT,Call now - confirm visit / closing
+841,27841,2026-07-16 11:43:00,Enquiry from Telephone,,Chaithra V,In Process,Voice,IVR_Sandalwood,Details has been shared to customer,WARM,Call back as per note
+843,27849,2026-07-17 17:58:00,Enquiry from Telephone,,Chaithra V,In Process,Voice,IVR_Sandalwood,Details has been shared in the whatsup,WARM,Call back as per note
+844,27862,2026-07-18 20:04:00,Enquiry from Telephone,,Chaithra V,In Process,Voice,IVR_Sandalwood,client name uthkarsh,WARM,Retry call (different time) + WhatsApp message
+851,27887,2026-07-24 10:28:00,Enquiry from Telephone,,Chaithra V,In Process,Voice,IVR_Sandalwood,Details has been shared in whatsup,WARM,Call back as per note
+852,27892,2026-07-24 14:53:00,Enquiry from Telephone,,Chaithra V,In Process,Voice,IVR_Sandalwood,Details has been shared in whatsup,WARM,Call back as per note
+853,27895,2026-07-25 11:25:00,Enquiry from Telephone,,Chaithra V,In Process,Voice,IVR_Sandalwood,Details has been shared in whatsup,WARM,Call back as per note
+857,27911,2026-07-28 17:14:00,Enquiry from Telephone,,Chaithra V,In Process,Voice,IVR_Sandalwood,Details has been shared in whatsup,WARM,Call back as per note
+858,27914,2026-07-29 16:10:00,Enquiry from Telephone,,Chaithra V,In Process,Voice,IVR_Sandalwood,BUDGET TO COSTLY,WARM,Retry call (different time) + WhatsApp message
+862,27932,2026-08-01 09:58:00,Enquiry from Telephone,,Chaithra V,In Process,Voice,IVR_Sandalwood,Details has been shared in whatsup and customer informed i will only contact you back,WARM,Call back as per note
+907,28185,2026-08-27 12:17:00,Enquiry from Telephone,,Chaithra V,In Process,Voice,IVR_Sandalwood,Details has been shared in whatsup,WARM,Call back as per note
+1012,30257,2026-10-25 15:29:00,Enquiry from Telephone,Pavan Raj,virat kohli,In Process,Voice,IVR_Sandalwood,"Dialed, but not answered",WARM,Retry call (different time) + WhatsApp message
+1013,30258,2026-10-25 16:41:00,Enquiry from Telephone,,Tejendra M,In Process,Voice,IVR_Sandalwood,"Dialed, but not answered",WARM,Retry call (different time) + WhatsApp message
+1040,27848,2026-07-17 17:54:00,Enquiry from Telephone,,Chaithra V,RNR,Voice,IVR_Sandalwood,"Dialed, but not answered",COLD,Retry call (different time) + WhatsApp message
+1042,27861,2026-07-18 18:56:00,Enquiry from Telephone,,Admin,RNR,Voice,IVR_Sandalwood,dailled but no answer,COLD,Retry call (different time) + WhatsApp message
+1046,30459,2026-11-07 10:10:00,Enquiry from Telephone,,virat kohli,RNR,Voice,IVR_Sandalwood,,,
+1050,27893,2026-07-24 18:05:00,Enquiry from Telephone,,Chaithra V,RNR,Voice,IVR_Sandalwood,,COLD,Retry call (different time) + WhatsApp message
+1051,27896,2026-07-25 13:44:00,Enquiry from Telephone,,Chaithra V,RNR,Voice,IVR_Sandalwood,"Dialed, but not answered",COLD,Retry call (different time) + WhatsApp message
+1062,30475,2026-11-08 09:53:00,Enquiry from Telephone,Punith,srinivas,Verified,Voice,IVR_Sandalwood,Got a IVR call so he want to see all our projects so sent both the details he will try to visit today itself,,
+1070,30483,2026-11-08 14:36:00,Enquiry from Telephone,,virat kohli,Site Visit Done,Voice,IVR_Sandalwood,,,
+1073,30486,2026-11-08 16:24:00,Enquiry from Telephone,Shivakumar,srinivas,Initial,Voice,IVR_Sandalwood,He made enquiry and he mentioned he will visit project in week end still not confirm date,,
+1111,30524,2026-11-10 12:13:00,Enquiry from Telephone,Ramanathan,Tejendra M,In Process,Voice,IVR_Sandalwood,He asked me to share details on wats app and he was provide me Singapore he mentioned if he like project he will book and visit he asked me contact on wats app,,
+1115,30528,2026-11-10 15:36:00,Enquiry from Telephone,,srinivas,Initial,Voice,IVR_Sandalwood,,,
+1204,27696,2026-07-07 17:17:00,Enquiry from Telephone,,virat kohli,Cancelled,Voice,IVR_Sandalwood,job enquiry,LOST,No follow-up (closed)
+1205,27852,2026-07-17 18:25:00,Enquiry from Telephone,,Admin,Cancelled,Voice,IVR_Sandalwood,Customer is in search of residential plots hence closing the lead,LOST,No follow-up (closed)
+1208,27784,2026-07-13 10:33:00,Enquiry from Telephone,,Admin,Cancelled,Voice,IVR_Sandalwood,advertisement ajency,LOST,No follow-up (closed)
+1211,27843,2026-07-16 18:56:00,Enquiry from Telephone,,Tanveer,Cancelled,Voice,IVR_Sandalwood,PRICE TO HIGH,LOST,No follow-up (closed)
+1213,27847,2026-07-17 17:54:00,Enquiry from Telephone,,virat kohli,Cancelled,Voice,IVR_Sandalwood,Customer said that it is too far I am looking for the nearest project hence cancelling,LOST,No follow-up (closed)
+1214,27851,2026-07-17 17:59:00,Enquiry from Telephone,,virat kohli,Cancelled,Voice,IVR_Sandalwood,dailled but no answer,LOST,No follow-up (closed)
+1215,27853,2026-07-18 09:00:00,Enquiry from Telephone,tushar,virat kohli,Cancelled,Voice,IVR_Sandalwood,testing calls from raju sir team,LOST,No follow-up (closed)
+1226,27872,2026-07-20 09:06:00,Enquiry from Telephone,,virat kohli,Cancelled,Voice,IVR_Sandalwood,swith off  not reachable,LOST,No follow-up (closed)
+1228,27876,2026-07-21 19:06:00,Enquiry from Telephone,dileep  raj,virat kohli,Cancelled,Voice,IVR_Sandalwood,planned to purchase individual land,LOST,No follow-up (closed)
+1231,27881,2026-07-23 11:08:00,Enquiry from Telephone,,virat kohli,Cancelled,Voice,IVR_Sandalwood,Customer is asking weather you will take land to do marketing hence closing the lead,LOST,No follow-up (closed)
+1232,27888,2026-07-24 11:26:00,Enquiry from Telephone,,virat kohli,Cancelled,Voice,IVR_Sandalwood,Digital marketing company lead hence closing the ticket,LOST,No follow-up (closed)
+1238,27907,2026-07-27 19:01:00,Enquiry from Telephone,,virat kohli,Cancelled,Voice,IVR_Sandalwood,,LOST,No follow-up (closed)
+1244,27921,2026-07-30 13:13:00,Enquiry from Telephone,,virat kohli,Cancelled,Voice,IVR_Sandalwood,Dialed number is invalid hence closing the ticket,LOST,No follow-up (closed)
+1275,28031,2026-08-16 11:26:00,Enquiry from Telephone,,virat kohli,Cancelled,Voice,IVR_Sandalwood,incoming calls not availalble,LOST,No follow-up (closed)
+1286,28043,2026-08-17 16:51:00,Enquiry from Telephone,Asha,virat kohli,Cancelled,Voice,IVR_Sandalwood,"Dialed, but not answered",LOST,No follow-up (closed)
+1296,28208,2026-08-30 08:54:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,CUSTOMER BUDGET 20 LAKH ONLY  ADRSH SIR RFRNCE,LOST,No follow-up (closed)
+1317,28156,2026-08-25 11:45:00,Enquiry from Telephone,,virat kohli,Cancelled,Voice,IVR_Sandalwood,residential plot--hence cancelling,LOST,No follow-up (closed)
+1318,28157,2026-08-25 16:30:00,Enquiry from Telephone,,srinivas,Cancelled,Voice,IVR_Sandalwood,Too Far so not required,LOST,No follow-up (closed)
+1321,28162,2026-08-26 08:07:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,WORNG LOCATION,LOST,No follow-up (closed)
+1322,28164,2026-08-26 15:51:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,SO MANY TIMES CALL  BUT HE NOT RESPOND,LOST,No follow-up (closed)
+1330,28180,2026-08-27 10:16:00,Enquiry from Telephone,,virat kohli,Cancelled,Voice,IVR_Sandalwood,operational head position- cancelling,LOST,No follow-up (closed)
+1332,28183,2026-08-27 10:54:00,Enquiry from Telephone,,virat kohli,Cancelled,Voice,IVR_Sandalwood,Looking for job hence cancelLING,LOST,No follow-up (closed)
+1343,28202,2026-08-29 12:06:00,Enquiry from Telephone,Eshwar,virat kohli,Cancelled,Voice,IVR_Sandalwood,Customer said that they are not interested in our project right now hence canceling,LOST,No follow-up (closed)
+1344,28204,2026-08-29 15:48:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,WRONG NUMBER,LOST,No follow-up (closed)
+1345,28205,2026-08-29 15:53:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,The client has not looking for any farm land to buy he is looking that any company will manage his own farm land that why he enquied,LOST,No follow-up (closed)
+1346,28206,2026-08-29 15:57:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,,LOST,No follow-up (closed)
+1347,28207,2026-08-29 16:40:00,Enquiry from Telephone,,virat kohli,Cancelled,Voice,IVR_Sandalwood,Cx has their own land-- wants us to manage --hence cancelling,LOST,No follow-up (closed)
+1348,28209,2026-08-30 13:13:00,Enquiry from Telephone,,Chaithra V,Cancelled,Voice,IVR_Sandalwood,WRONG CALLS,LOST,No follow-up (closed)
+1664,30256,2026-10-25 15:16:00,Enquiry from Telephone,vishwanath,Lohith N,Cancelled,Voice,IVR_Sandalwood,he has a budget of 30laks although he looking within 60km,LOST,No follow-up (closed)
+1665,30264,2026-10-26 10:19:00,Enquiry from Telephone,,Lohith N,Cancelled,Voice,IVR_Sandalwood,he is a sandalwood care company person,LOST,No follow-up (closed)

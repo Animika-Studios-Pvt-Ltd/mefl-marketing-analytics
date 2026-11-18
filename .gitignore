@@ -1,0 +1,17 @@
+# Environment & Credentials (NEVER push to GitHub)
+.env
+
+# Backups & Dumps
+backups/
+*.sql
+*.pbix
+
+# Logs & Scratch
+logs/
+scratch/
+__pycache__/
+*.pyc
+
+# OS files
+Thumbs.db
+.DS_Store
