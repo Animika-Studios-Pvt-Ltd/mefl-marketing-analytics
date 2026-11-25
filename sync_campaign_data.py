@@ -52,7 +52,7 @@ def get_best_excel_path():
             logger.info(f"Copied newer Excel from Downloads to: {DEFAULT_EXCEL_PATH}")
         except Exception as e:
             logger.warning(f"Could not copy from Downloads to OneDrive folder: {e}")
-    return best_path or DEFAULT_EXCEL_PATH
+    return best_path
 DEFAULT_CSV_PATH = os.path.join(BASE_DIR, "MEFL_Analysis1.csv")
 DEFAULT_WEBSITE_LEADS_CSV = os.path.join(BASE_DIR, "website_leads_cleaned.csv")
 DEFAULT_MEFL_VOICE_CSV = os.path.join(BASE_DIR, "mefl_voice_clean.csv")
@@ -464,11 +464,50 @@ def values_differ(v1, v2):
     return v1 != v2
 
 
-def get_db_connection():
+def get_target_databases():
+    """
+    Returns list of target databases to sync to based on TARGET_DB env variable.
+    Options: 'BOTH' -> ['LOCAL', 'NEON'], 'NEON' -> ['NEON'], 'LOCAL' -> ['LOCAL']
+    """
     env_path = os.path.join(BASE_DIR, ".env")
-    if not os.path.exists(env_path):
-        raise FileNotFoundError(f".env file not found at {env_path}")
-    load_dotenv(env_path)
+    if os.path.exists(env_path):
+        load_dotenv(env_path)
+    mode = os.getenv("TARGET_DB", "BOTH").strip().upper()
+    if mode == "BOTH":
+        targets = []
+        if os.getenv("DB_PASSWORD") or os.getenv("DB_HOST"):
+            targets.append("LOCAL")
+        if os.getenv("NEON_DATABASE_URL") or os.getenv("NEON_DB_HOST"):
+            targets.append("NEON")
+        return targets if targets else ["LOCAL"]
+    elif mode == "NEON":
+        return ["NEON"]
+    else:
+        return ["LOCAL"]
+
+
+def get_db_connection(target=None):
+    """
+    Returns a psycopg2 connection to either 'LOCAL' PostgreSQL or 'NEON' Serverless PostgreSQL.
+    """
+    env_path = os.path.join(BASE_DIR, ".env")
+    if os.path.exists(env_path):
+        load_dotenv(env_path)
+
+    target_name = (target or os.getenv("TARGET_DB", "LOCAL")).strip().upper()
+    if target_name == "NEON":
+        neon_url = os.getenv("NEON_DATABASE_URL")
+        if neon_url:
+            return psycopg2.connect(neon_url, connect_timeout=15)
+        return psycopg2.connect(
+            host=os.getenv("NEON_DB_HOST"),
+            port=os.getenv("NEON_DB_PORT", "5432"),
+            dbname=os.getenv("NEON_DB_NAME", "neondb"),
+            user=os.getenv("NEON_DB_USER", "neondb_owner"),
+            password=os.getenv("NEON_DB_PASSWORD"),
+            sslmode="require",
+            connect_timeout=15,
+        )
 
     db_host = os.getenv("DB_HOST", "localhost")
     db_port = os.getenv("DB_PORT", "5432")
@@ -505,15 +544,25 @@ def fetch_existing_records(cur, target_table="campaign_data_ready"):
     return existing_map
 
 
-def sync(csv_path, dry_run=False, excel_path=None):
+def sync(csv_path, dry_run=False, excel_path=None, target_db=None):
+    if target_db is None:
+        targets = get_target_databases()
+        if len(targets) > 1:
+            res = {}
+            for t in targets:
+                logger.info(f"--- Running campaign_data_ready sync for target database: [{t}] ---")
+                res[t] = sync(csv_path=csv_path, dry_run=dry_run, excel_path=excel_path, target_db=t)
+            return res
+        target_db = targets[0]
+
     start_time = datetime.datetime.now()
     mode_text = "[DRY-RUN MODE]" if dry_run else "[LIVE SYNC MODE]"
     logger.info(f"{'='*60}")
-    logger.info(f"Starting MEFL Campaign Data Sync {mode_text}")
+    logger.info(f"Starting MEFL Campaign Data Sync [{target_db}] {mode_text}")
 
     records = []
-    # If excel_path provided, use the freshly extracted records in memory
-    if excel_path:
+    # If excel_path provided and exists, use the freshly extracted records in memory
+    if excel_path and os.path.exists(excel_path):
         logger.info(f"Source Excel: {excel_path}")
         extracted_raw_records = extract_excel_to_csv(
             excel_path=excel_path, target_csv_path=csv_path, dry_run=dry_run
@@ -529,8 +578,8 @@ def sync(csv_path, dry_run=False, excel_path=None):
                     continue
                 records.append(clean_csv_row(raw_row))
 
-    logger.info(f"Evaluating {len(records)} records against PostgreSQL.")
-    logger.info(f"Target DB: MEFL_MARKETING_ANALYTICS.public.campaign_data_ready")
+    logger.info(f"Evaluating {len(records)} records against PostgreSQL [{target_db}].")
+    logger.info(f"Target DB: [{target_db}].public.campaign_data_ready")
 
     conn = None
     inserted_count = 0
@@ -538,7 +587,7 @@ def sync(csv_path, dry_run=False, excel_path=None):
     unchanged_count = 0
 
     try:
-        conn = get_db_connection()
+        conn = get_db_connection(target_db)
         conn.autocommit = False
         cur = conn.cursor()
 
@@ -693,16 +742,26 @@ def sync(csv_path, dry_run=False, excel_path=None):
     }
 
 
-def sync_mefl_leads(csv_path, target_table, dry_run=False):
+def sync_mefl_leads(csv_path, target_table, dry_run=False, target_db=None):
     """
     Synchronizes mefl_voice or mefl_results datasets into PostgreSQL.
     Key column: 'lead' (bigint, unique primary key).
     Updates only modified records, inserts new leads, preserves historical leads.
     """
+    if target_db is None:
+        targets = get_target_databases()
+        if len(targets) > 1:
+            res = {}
+            for t in targets:
+                logger.info(f"--- Running {target_table} sync for target database: [{t}] ---")
+                res[t] = sync_mefl_leads(csv_path=csv_path, target_table=target_table, dry_run=dry_run, target_db=t)
+            return res
+        target_db = targets[0]
+
     start_time = datetime.datetime.now()
     mode_text = "[DRY-RUN MODE]" if dry_run else "[LIVE SYNC MODE]"
     logger.info(f"{'='*60}")
-    logger.info(f"Starting {target_table} Sync from {os.path.basename(csv_path)} {mode_text}")
+    logger.info(f"Starting {target_table} Sync [{target_db}] from {os.path.basename(csv_path)} {mode_text}")
 
     if not os.path.exists(csv_path):
         logger.warning(f"Source CSV not found for {target_table} at {csv_path}. Skipping.")
@@ -794,7 +853,7 @@ def sync_mefl_leads(csv_path, target_table, dry_run=False):
 
             records.append(rec)
 
-    logger.info(f"Loaded {len(records)} records from {csv_path}. Target: public.{target_table}")
+    logger.info(f"Loaded {len(records)} records from {csv_path}. Target: [{target_db}].public.{target_table}")
 
     conn = None
     inserted_count = 0
@@ -802,7 +861,7 @@ def sync_mefl_leads(csv_path, target_table, dry_run=False):
     unchanged_count = 0
 
     try:
-        conn = get_db_connection()
+        conn = get_db_connection(target_db)
         conn.autocommit = False
         cur = conn.cursor()
 
@@ -911,18 +970,28 @@ def sync_mefl_leads(csv_path, target_table, dry_run=False):
     }
 
 
-def sync_website_leads(csv_path, dry_run=False):
+def sync_website_leads(csv_path, dry_run=False, target_db=None):
     """
     Synchronizes website_leads_cleaned.csv into public.website_leads.
     Preserves all existing records (no deletions).
     Performs safe duplicate-aware multiset comparison:
     Only rows that appear more times in the CSV than in the database are inserted.
     """
+    if target_db is None:
+        targets = get_target_databases()
+        if len(targets) > 1:
+            res = {}
+            for t in targets:
+                logger.info(f"--- Running website_leads sync for target database: [{t}] ---")
+                res[t] = sync_website_leads(csv_path=csv_path, dry_run=dry_run, target_db=t)
+            return res
+        target_db = targets[0]
+
     from collections import Counter
     start_time = datetime.datetime.now()
     mode_text = "[DRY-RUN MODE]" if dry_run else "[LIVE SYNC MODE]"
     logger.info(f"{'='*60}")
-    logger.info(f"Starting website_leads Sync from {os.path.basename(csv_path)} {mode_text}")
+    logger.info(f"Starting website_leads Sync [{target_db}] from {os.path.basename(csv_path)} {mode_text}")
 
     if not os.path.exists(csv_path):
         logger.warning(f"Source CSV not found for website_leads at {csv_path}. Skipping.")
@@ -948,7 +1017,7 @@ def sync_website_leads(csv_path, dry_run=False):
     unchanged_count = 0
 
     try:
-        conn = get_db_connection()
+        conn = get_db_connection(target_db)
         conn.autocommit = False
         cur = conn.cursor()
 
@@ -1117,7 +1186,7 @@ def main():
     )
     args = parser.parse_args()
 
-    excel_target = args.excel if args.excel != DEFAULT_EXCEL_PATH else get_best_excel_path()
+    excel_target = args.excel if (args.excel and os.path.exists(args.excel) and args.excel != DEFAULT_EXCEL_PATH) else get_best_excel_path()
     try:
         if args.only_campaigns:
             sync(csv_path=args.csv, dry_run=args.dry_run, excel_path=excel_target)

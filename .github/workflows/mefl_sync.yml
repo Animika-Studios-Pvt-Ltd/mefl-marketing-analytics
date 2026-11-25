@@ -1,0 +1,41 @@
+name: MEFL Marketing Analytics Cloud Sync
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [sharepoint_file_updated, manual_sync]
+  schedule:
+    # Runs daily at 03:00 UTC (08:30 AM IST)
+    - cron: '30 3 * * *'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Cloud Sync to Neon
+        env:
+          TARGET_DB: NEON
+          NEON_DATABASE_URL: ${{ secrets.NEON_DATABASE_URL }}
+        run: |
+          python sync_campaign_data.py
+
+      - name: Commit & Push Updated CSVs (if changed)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add *.csv
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update synced CSV datasets [skip ci]" && git push)
